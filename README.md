@@ -6,6 +6,7 @@ The application is implemented using python's flask framework. The application i
 
 ## Usage
 View the code at: https://github.com/sushruthmsjhs/CalendarShiftingWebsite
+
 To use the application go to: https://calendar-shifting.herokuapp.com
 
 ## Known Issues
