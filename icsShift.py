@@ -89,7 +89,8 @@ def main(r, filename):
                         oldPart = temp[0:-3]
                         oldDay = temp[-3:-1]
                         val  = daysList.index(oldDay)
-                        val+=dayOffset%7
+                        val+=dayOffset
+                        val%=7
                         newPart =daysList[val]
                         bigFile+=oldPart+newPart+'\n'
                         f1.write(oldPart+newPart+'\n')
