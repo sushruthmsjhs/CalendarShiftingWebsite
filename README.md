@@ -5,6 +5,7 @@ The project is to take in any .ics file and a date that the user wishes to shift
 The application is implemented using python's flask framework. The application is also written with python and utilizes the icalendar and datetime packages
 
 ## Usage
+<<<<<<< HEAD
 1. Make sure python 3.5+ is installed on your machine
 2. Clone or download the github repository located at https://github.com/sushruthmsjhs/CalendarShiftingWebsite
 3. Navigate to the directory in terminal
@@ -16,6 +17,10 @@ The application is implemented using python's flask framework. The application i
 Version 1.1
 1. Fixed uploading multiple files issues
 2. Fixed rrules and timezone issues.
+=======
+
+To use the application go to: https://calendar-shifting.herokuapp.com
+>>>>>>> 76df30ff575ffaddcd26be7bf432f759139f942e
 
 ## Known Issues
 Recurring rules with more than one day per week, are not supported.
