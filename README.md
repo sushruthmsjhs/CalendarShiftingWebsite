@@ -12,8 +12,11 @@ The application is implemented using python's flask framework. The application i
 4. Run the controller.py file using python3 controller.py and open the url that shows up in terminal 
 
 
-
+# Release 
+Version 1.1
+1. Fixed uploading multiple files issues
+2. Fixed rrules and timezone issues.
 
 ## Known Issues
-There are issues with .ics files whose start dates contain timezone information.
+Recurring rules with more than one day per week, are not supported.
 
